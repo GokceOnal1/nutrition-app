@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Nutrition{% endblock %}</title>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <main class="container py-4">
+    {% block content %}{% endblock %}
+  </main>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/vendor/htmx/htmx.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

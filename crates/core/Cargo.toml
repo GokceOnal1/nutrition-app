@@ -1,0 +1,11 @@
+[package]
+name = "nutrition-core"
+version = "0.1.0"
+edition.workspace = true
+publish.workspace = true
+
+[lib]
+name = "nutrition_core"
+path = "src/lib.rs"
+
+[dependencies]
