@@ -3,3 +3,5 @@
 data/*.db
 data/*.db-*
 !data/.gitkeep
+notes.md
+explanation.md
